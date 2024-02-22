@@ -1,7 +1,4 @@
-"""Ordenación de Arreglo Multidimensional
-
-Crea un nuevo proyecto en PyCharm y un archivo Python para este programa.
-
+"""
 Escribe un programa que incluya una matriz bidimensional con valores numéricos
  (puede ser una matriz pequeña de 3x3).
 
