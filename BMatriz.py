@@ -14,16 +14,17 @@ arr_matriz3x3 = [
     [14, 13, 12],
     [16, 15, 14]
 ]
- # Imprimimos la matrix
+# Imprimimos la matrix
 for (x) in arr_matriz3x3:
     print(x)
 # Búsqueda de un valor  en la matriz
-valor_buscado = 11
+valor_buscado = 15
 if any(valor_buscado in fila for fila in arr_matriz3x3):
     print(f"Se encontró {valor_buscado} en la matriz.")
 else:
     print(f"{valor_buscado} no se encontró en la matriz.")
-
+fila_encontrada = -1
+columna_encontrada = -1
 for fila in range(len(arr_matriz3x3)):
     for columna in range(len(arr_matriz3x3[fila])):
         if arr_matriz3x3[fila][columna] == valor_buscado:
